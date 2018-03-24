@@ -4,7 +4,7 @@
 
 import express from 'express';
 
-import { triggerCIBuild } from 'triggers/perforce';
+import { triggerCIBuild } from 'triggers/ci';
 import { logger } from 'utils/logger';
 
 export const app: express.Express = express();
